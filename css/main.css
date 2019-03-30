@@ -1,0 +1,13 @@
+#dropZone {
+    padding: 50px;
+    border: dashed black;
+}
+
+#shareLinkUrl {
+    font-size: larger;
+    width: 30%;
+}
+
+.progress {
+    background-color: #c7c7c7;
+}
