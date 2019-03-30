@@ -96,10 +96,10 @@
 <script src="https://rawgit.com/jimmywarting/browser-su/master/build/permissions.js"></script>
 
 <script>
-    !streamSaver.supported && prompt(
+   /* !streamSaver.supported && prompt(
         'ReadableStream is not supported, you can enable it in chrome, or wait until v52',
         'chrome://flags/#enable-experimental-web-platform-features'
-    );
+    );*/
     if(!(window.File && window.FileReader && window.FileList && window.Blob)) {
         alert('The File APIs are not fully supported in this browser.');
     }
